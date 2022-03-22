@@ -46,7 +46,8 @@ function parse(src) {
 /*
  *定义多个服务器账号 及 根据 SERVER_ID 导出当前环境服务器账号
  */
-const SERVER_LIST = [{
+const SERVER_LIST = [
+  {
     id: 0,
     name: '开发环境',
     domain: '192.168.2.98', // 域名

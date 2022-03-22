@@ -1,7 +1,7 @@
 import config from "../../assets/js/conf/config";
 import {request} from '../../assets/js/utils/request';
 
-
+// 查询购物车
 export function getCartData(uid,page){
 	
 	let Page2 = page?page:1;
